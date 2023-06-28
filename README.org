@@ -1,0 +1,13 @@
+* Instructions
+
+1. Build java
+
+~javac java/native_greeting/Native.java~
+
+2. Build Rust
+
+~cargo build --release~
+
+3. Run java
+
+~java -cp java -Djava.library.path=$PWD/target/release greeting.Native~
