@@ -2,7 +2,7 @@
 
 1. Build java
 
-~javac java/native_greeting/Native.java~
+~javac java/greeting/Native.java~
 
 2. Build Rust
 
